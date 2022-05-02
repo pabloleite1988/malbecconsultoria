@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+form{
+	
+	width: 935px;
+	margin: auto;
+	
+}
+
+H1{
+	
+	text-align: center;
+	text-decoration: underline;
+	
+	
+}
+
+fieldset {
+	
+	border-color: #cecece;
+	margin: 20px;
+	font-size: 14pt;
+	
+}
+
+legend{
+	
+	color: #888888;
+	font: 13pt sans-serif;
+	
+}
+
+fieldset#Cliente {
+	
+	background: url("icons/icone-Clientes.png") no-repeat 95% 95%;
+	width: 395px;
+	height:225px;
+	float: left;
+	
+}
+
+fieldset#Consultor {
+	
+	background: url("icons/icone-Consultoria.png") no-repeat 95% 95%;
+	width: 395px;
+	height:225px;
+	float: right;
+	
+}
+
+fieldset#Visitas {
+	
+	background: url("icons/icone-Visita.png") no-repeat 95% 95%;
+	width: 395px;
+	height:225px;
+	float: left;
+	
+}
+
+fieldset#Autenticar {
+	
+	background: url("icons/icone-Cadeado.png") no-repeat 95% 95%;
+	width: 395px;
+	height:225px;
+	float: none;
+	
+}
+
+fieldset#Cursos {
+	
+	background: url("icons/icone-Cursos.png") no-repeat 95% 95%;
+	width: 395px;
+	height:225px;
+	float: right;
+	
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="JS/javascript.js"></script>
+        <link rel="stylesheet" href="CSS/estilo.css">
+        
+    </head>
+        
+    <body>
+        <div class="container">
+            <header>
+                    <img src="img/images (1).png" width="80" height="80"> 
+                    <h1 align="center">Malbec Consultoria em Vinhos</h1>
+                                       
+                    
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="visitas.html">Visitas</a></li>
+                            <li><a href="treinamento.html">Treinamento</a></li>
+                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <main>                      
+            
+                <p>Nossa empresa, formada por consultores amigos e apaixonados por vinhos.</p>
+                <p>Partindo dessa premissa, atendemos aos nossos clientes e parceiros de negócios através
+                da adesão de nossos planos de atendimento.
+                </p>
+                <p>Trabalhamos com os seguintes Planos de Atendimento por assinaturas, abaixo nomearemos
+                tais planos, bem como os respectivos valores:</p>
+                <Ul>
+                    <li>Plano Consultoria(R$ 599,00)</li>
+                    <li>Plano Treinamento(R$ 800,00)</li>
+                    <li>Plano Visitas(R$ 347,99)</li>
+                </Ul>
+
+                Esteja à vontade para adquirir seus planos à partir do nosso menu abaixo:
+                
+                           <fieldset id="Consultoria">
+                <legend> Planos de Adesão - Malbec Consultoria </legend>
+                <form name="formConsultoria" id="formConsultoria">
+                    <table>
+                        <thead><td>Nome Plano</td>
+                                <td>Valor</td>
+                                <td>Qtde Contratada</td>
+                        </thead>
+
+                        <tbody>
+                            <tr><!--Plano Consultoria-->
+                                <td>Plano Consultoria</td>
+                                <td> R$ 599,00</td>
+                                <td>
+                                    <input type="text" name="planoCons" value="" size="15" placeholder="Digite a quantidade desejada.">
+                                </td>
+                            </tr>     
+
+                            <tr><!--Plano Treinamento-->
+                                <td> Plano Treinamento</td>
+                                <td> R$ 800,00</td>
+                                <td>
+                                    <input type="text" name="planoTrein" value="" size="15" placeholder="Digite a quantidade desejada de contratação de plano.">
+                                </td>
+                            </tr>
+                            
+                            <tr><!--Plano Visitas-->
+                                <td>Plano Visitas</td>
+                                <td>R$ 347,99</td>
+                                <td>
+                                    <input type="text" name="planoVis" value="" size="15" placeholder="Digite a quantidade desejada de contratação de plano.">
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr> 
+                                <td></td>
+                                <td>Total (R$):</td>
+                                <td><input type="text" name="soma" value="" size="15" /></td>
+                                <td><input type="button" name="btnCalcular" value="Calcular" onclick="calcularTotalPedido()"/></td>
+
+                                
+                            </tr>
+                        </tfoot>        
+                    </table>
+                </form>
+            </fieldset>    
+        </main>  
+            
+            <footer> Leopoldina - Minas Gerais - Contato:(32)98810-8816 </footer>
+        </div>
+    </body>        
+  </html>
